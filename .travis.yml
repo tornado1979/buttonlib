@@ -1,4 +1,12 @@
-language: node_js
-node_js:
-  - 9
-  - 8
+pipeline {
+    agent any
+    }
+    stages {
+        stage('Build') { 
+            steps {
+                sh 'npm install' 
+                sh 'npm start'
+            }
+        }
+    }
+}
