@@ -3,20 +3,23 @@ import PropTypes from 'prop-types'
 
 import styles from './styles.css'
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
+import { Button, Label, Input } from './components'
 
-  render() {
-    const {
-      text
-    } = this.props
+export { Button, Label, Input }
+// export default class ExampleComponent extends Component {
+//   static propTypes = {
+//     text: PropTypes.string
+//   }
 
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+//   render() {
+//     const {
+//       text
+//     } = this.props
+
+//     return (
+//       <div className={styles.test}>
+//         Example Component: {text}🚀
+//       </div>
+//     )
+//   }
+// }

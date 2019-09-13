@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'buttonlib'
+//import ExampleComponent from 'buttonlib'
+import { Button, Label, Input } from 'buttonlib'
 
 export default class App extends Component {
   render () {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
+      <div className="wrapper">
+        <Button text='Modern React component module' />
+        <Label />
+        <Input />
       </div>
     )
   }
