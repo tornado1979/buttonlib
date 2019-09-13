@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <div className="wrapper">
         <Button text='Modern React component module' />
-        <Label />
+        <Label text='this is a label' />
         <Input />
       </div>
     )
